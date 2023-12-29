@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "quick-links-rt-client-side-solution",
+    "id": "2230974c-1bee-4bea-acf1-99199fd2d8fb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "quick-links-rt description"
+      },
+      "longDescription": {
+        "default": "quick-links-rt description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "quick-links-rt Feature",
+        "description": "The feature that activates elements of the quick-links-rt solution.",
+        "id": "d581a15e-6ed9-4da8-b714-49540b25559d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/quick-links-rt.sppkg"
+  }
+}
